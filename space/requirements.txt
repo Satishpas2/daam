@@ -21,9 +21,11 @@ scipy
 regex!=2019.12.17
 requests
 tensorboard
-torch>=1.4
+torch>=2.7.1
 torchvision
 transformers>=4.21.0
 spacy
 gradio
 ftfy
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jupyter-core>=5.8.0 # not directly required, pinned by Snyk to avoid a vulnerability
