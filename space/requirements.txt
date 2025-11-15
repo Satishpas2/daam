@@ -21,7 +21,7 @@ scipy
 regex!=2019.12.17
 requests
 tensorboard
-torch>=1.4
+torch>=2.9.0
 torchvision
 transformers>=4.21.0
 spacy
