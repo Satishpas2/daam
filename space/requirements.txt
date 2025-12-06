@@ -27,3 +27,4 @@ transformers>=4.21.0
 spacy
 gradio
 ftfy
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
