@@ -21,9 +21,11 @@ scipy
 regex!=2019.12.17
 requests
 tensorboard
-torch>=1.4
+torch>=2.10.0
 torchvision
 transformers>=4.21.0
 spacy
 gradio
 ftfy
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+python-multipart>=0.0.22 # not directly required, pinned by Snyk to avoid a vulnerability
